@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+        <ImageView
+            android:id="@+id/detailGambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_launcher" />
+
+        <!-- teks satu -->
+
+        <TextView
+            android:id="@+id/detailTeks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailGambar"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Nama Lengkap"
+            android:textColor="#37abc8"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/garis1"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/detailTeks"
+            android:background="@layout/underline" />
+
+        <TextView
+            android:id="@+id/setTeksNama"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/garis1"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Null"
+            android:textSize="18dp" />
+
+        <!-- teks dua -->
+
+        <TextView
+            android:id="@+id/detailTeks2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/setTeksNama"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Pacar Anda"
+            android:textColor="#37abc8"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/garis2"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/detailTeks2"
+            android:background="@layout/underline" />
+
+        <TextView
+            android:id="@+id/setTeks2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/garis2"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Null"
+            android:textSize="18dp" />
+
+        <!-- teks tiga -->
+
+        <TextView
+            android:id="@+id/detailTeks3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/setTeks2"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Alamat Anda"
+            android:textColor="#37abc8"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/garis3"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/detailTeks3"
+            android:background="@layout/underline" />
+
+        <TextView
+            android:id="@+id/setTeks3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/garis3"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Null"
+            android:textSize="20dp" />
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

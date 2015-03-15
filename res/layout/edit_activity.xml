@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/textnama"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Nama Anda"
+                android:textColor="#37abc8"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/garis"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@layout/underline" />
+
+            <EditText
+                android:id="@+id/namaEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textpacar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Nama Pacar"
+                android:textColor="#37abc8"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gariseditsatu"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@layout/underline" />
+
+            <EditText
+                android:id="@+id/pacarEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textalamat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Alamat Anda"
+                android:textColor="#37abc8"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gariseditdua"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@layout/underline" />
+
+            <EditText
+                android:id="@+id/alamatEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+            
+             <Button
+                android:id="@+id/save"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Simpan"
+                />
+             
+        </LinearLayout>
+        
+    </ScrollView>
+
+<!--     <RelativeLayout -->
+<!--         android:id="@+id/bottomsave" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="40dp" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_gravity="bottom" -->
+<!--         android:background="#f2f2f2" -->
+<!--         android:padding="2dp" > -->
+       
+<!--     </RelativeLayout> -->
+
+<!-- </RelativeLayout> -->
